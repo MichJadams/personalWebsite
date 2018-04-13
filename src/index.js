@@ -7,7 +7,7 @@ import {render} from 'react-dom'
 import './style/index.css';
 
 import Navbar from './components/Navbar.js';
-import Name from './components/Name.js'
+
 import Projects from './components/Projects.js';
 import Home from './components/Home.js';
 import Statistics from './components/Statistics.js';
@@ -16,13 +16,11 @@ import Contact from './components/Contact.js'
 
 
 
-
-
 render(
     <div>
         <Router>
         <div>
-        <Name />
+
         <Navbar />
             <Switch>
                     <Route exact path="/" component={Home} />
