@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../style/App.css';
+import '../style/Navbar.css';
 
 export default class Navbar extends Component {
   render() {
     return (
+      <div>
+      <div className="NameContainer">
+      <Link className="Name" to={'/'}>Michaela Adams</Link>
+      </div>
       <div className="Menu">
-        <div className ="Menu-item"><Link to={'/Projects'}>Projects</Link></div>
-        <div className ="Menu-item">Statistics</div>
-        <div className="Menu-item">Resume</div>
-        <div className="Menu-item">Contact</div>
-      
+        <Link className ="Menu-item" to={'/Projects'}>Projects</Link>
+        <Link className ="Menu-item" to={'/Resume'}>Resume</Link>
+        <Link className ="Menu-item" to={'/Contact'}>Contact</Link>
+        <Link className ="Menu-item" to={'/Statistics'}>Statistics</Link>
+      </div>
       </div>
     );
   }

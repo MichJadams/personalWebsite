@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../style/App.css';
-
+import '../style/Home.css';
+import me from '../style/assets/Me.jpg'
 export default class Home extends Component {
   render() {
     return (
       
 
       
-       <div>HOME</div>
-
+       <div className="imageContainer">
+       <img src={me} className="backgroundImage"/>
+       </div>
     );
   }
 }

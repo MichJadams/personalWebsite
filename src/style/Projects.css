@@ -1,0 +1,14 @@
+.projectsContainer{
+    display: flex;
+    justify-content: center;
+}
+.projectImage{
+    position: absolute;
+    top: 15%;
+    border-style: solid;
+    border-color: black;
+
+}
+.projectDescription{
+    font-size: 14px;
+}
