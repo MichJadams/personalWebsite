@@ -1,9 +1,11 @@
 .projectsContainer{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    width: 600px;
 }
 .projectImage{
-    position: absolute;
+
     top: 15%;
     border-style: solid;
     border-color: black;
