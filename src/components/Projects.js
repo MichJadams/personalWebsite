@@ -5,8 +5,12 @@ import AreYouAliveLogo from '../style/assets/AreYouAliveLogo.svg'
 import AreYouThereLogo from '../style/assets/AreYouThereLogo.svg'
 import MystiqueBoutiqueLogo from '../style/assets/MysBouLogo.svg'
 import voteBlockLogo from '../style/assets/VoteBlockLogo.svg'
+import projectsBackground from '../style/assets/projectBackground.jpg'
 import Name from './Name.js'
 export default class Projects extends Component {
+
+  
+
   render() {
     return (
 
