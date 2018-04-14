@@ -10,6 +10,9 @@ export default class Home extends Component {
       
        <div className="imageContainer">
        <img src={me} className="backgroundImage"/>
+       <div className="aboutMeContainer">
+          <div className="aboutMeContent">About me: some stuff about me. some stuff about me. some stuff about me. some stuff about me. some stuff about me.some stuff about me. some stuff about me. </div>
+       </div>
        </div>
     );
   }

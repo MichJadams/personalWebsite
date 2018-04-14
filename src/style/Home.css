@@ -9,3 +9,20 @@
 .backgroundImage{
     width: 100%;
 }
+.aboutMeContainer{
+    position: absolute;
+    width: 600px;
+    left: 25%;
+    top: 10%;
+    z-index: 2;
+}
+
+.aboutMeContent{
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  width:40%;
+  padding: 5%;
+  font-size: 20px;
+  color: black;
+}
